@@ -1,0 +1,28 @@
+.test-div{
+    
+    background: rebeccapurple;
+    display: inline-block;
+
+    
+}
+
+h2{
+    color: seashell;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.another-div{
+    height: 300px;
+    width: 300px;
+    background: rgb(61, 3, 3);
+}
+
+.another-div1{
+    height: 300px;
+    width: 300px;
+    background: rgb(61, 3, 3);
+
+}

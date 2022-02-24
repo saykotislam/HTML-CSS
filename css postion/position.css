@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    width: 800px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 30px auto;
+    text-align: center;
+    position: relative; /*for using position in spesific div using absolute(div3)*/
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 3, 16);
+    display: inline-block;
+    
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(60, 20, 240);
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+
+}
+
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(17, 153, 39);
+    display: inline-block;
+    position: absolute;
+    
+
+    top: 0;
+    left: 0;
+
+    
+    
+}
+
+.testdiv{
+    height: 900px;
+}

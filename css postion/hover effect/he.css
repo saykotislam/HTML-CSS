@@ -1,0 +1,39 @@
+.maindiv {
+    width: 534px;
+    padding: 39px;
+    border: 9px solid black;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.hoverdiv{
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.hoverdiv img{
+    
+    max-height: 100%;
+}
+.hoverinner {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: blanchedalmond;
+    text-align: center;
+    height: 0;
+    width: 0;
+    background: rgba(14, 8, 8, 0.80);
+    /*opacity: 0;*/
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0;
+}
+
+.hoverdiv:hover .hoverinner{
+    height: 100%;
+    width: 178%;
+    visibility: visible;
+    opacity: 1;
+}
