@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu{
+    background-color: #1abc9c;
+}
+.header-menu ul{
+    text-align: center;
+}
+
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    color: white;
+    padding: 10px 65px;
+    display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.header-menu ul li:first-child a{
+    border-left: 1px solid white;
+}
+/*
+.header-menu ul li a:hover{
+    background:#3498db;
+    transition: .5s;
+}
+*/
+.header-menu ul li:hover > a{                /*li er pore a hover korbe*/
+    background:#3498db;
+    transition: .5s;
+}
+
+/*Drop Down Menu*/
+.header-menu ul li ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background-color: #1abc9c;
+    border-top:1px solid rgb(255, 255, 255);
+    transition: .5s;                        /*for animation*/
+    
+}
+.header-menu ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+.header-menu ul li ul  li a{
+    display: block;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+/*Hover*/
+
+/*                                       normal 
+.header-menu ul li ul{
+    display: none;
+}
+
+.header-menu ul li:hover ul{
+    display: block;
+}
+*/
+
+.header-menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+
+    transform: scaleY(0);        /* For different animation
+                                    scaley() for middle*/   
+    transform-origin: top center;
+}
+
+.header-menu ul li:hover ul{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+/*socialmenu*/
+
+.socialmenu ul{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.socialmenu ul li{
+    display: inline-block;
+
+}
+.socialmenu ul li a {
+    color: rgb(248, 248, 248);
+    background: rgb(250, 18, 18);
+    font-size: 112px;
+    /* padding: 37px; */
+    margin-left: 16px;
+    margin-right: 8px;
+    height: 179px;
+    width: 179px;
+    display: inline-block;
+    text-align: center;
+    line-height: 179px; /*same to height for middle*/
+    border-radius: 50%;
+}

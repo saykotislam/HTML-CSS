@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*h2{background: rgb(107, 240, 245);}*/
+/*p{background:rgb(107, 240, 245);}*/
+/*a{background: rgb(107, 240, 245);}*/
+span{background: rgb(107, 240, 245);}
+/*div{background: rgb(107, 240, 245);}*/
+b{background: rgb(107, 240, 245);}
+img{
+    text-align: center;
+
+}
+
+
+
+.test{
+    text-align: center;
+    background-image: url(https://www.pngkey.com/png/full/488-4883292_trees-forest-treetops-overlay-background-pine-tree-forest.png);
+    padding: 200px 0;
+    background-position: top center;
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat; /*repet x or y o deoa jai*/
+    background-attachment: fixed;
+ 
+}
+
+.test1{
+    height: 1000px;
+}
+
+.anotherdiv{
+    text-align: center;
+}
+
+.main-menu li{
+    margin-left: -5px;
+    display: inline-block;
+}
+.main-menu li a{
+    padding: 10px 100px;
+    background: rgb(107, 240, 245);
+    color: black;
+    display: inline-block;
+    border: 4px solid black;
+    text-decoration: none;
+}
+.main-menu{
+    text-align: center;
+    
+}
+.main-menu li a:hover{
+    background: yellow;
+    transition: .3s;
+    border-color: rgb(149, 228, 31);
+}

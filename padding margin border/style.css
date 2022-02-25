@@ -1,0 +1,22 @@
+*{                         /*for reset defult margin*/
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: aqua;
+    background: black;
+    display: inline-block;
+    /* padding: 78px; */
+    border-width: 11px;
+    border-style: solid;
+    border-color: rgb(5, 9, 189);
+    /* margin: 435px; */
+    padding: top;
+    padding-top: 16px;
+    padding-right: 90px;
+    padding-bottom: 25px;
+    padding-left: 91px;
+    margin-left: 486px;
+    /* margin-bottom: 18px; */
+    margin-top: 93px;
+}
